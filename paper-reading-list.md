@@ -54,12 +54,12 @@ Multi-View Stereo
     
     <summary>详细信息</summary>
     
-    - **团队**：香港科技大学权龙教授团队
-    - **作者**：Yao Yao, Zixin Luo, Shiwei Li, Tianwei Shen, Tian Fang, Long Quan
-    - **出处**：CVPR(2019)
-    - **说明**：与MVSNet出自同手，二者共享代码仓库
-    - **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Yao_Recurrent_MVSNet_for_High-Resolution_Multi-View_Stereo_Depth_Inference_CVPR_2019_paper.html) \| [code](https://github.com/YoYo000/MVSNet)
-    
+- **团队**：香港科技大学权龙教授团队
+- **作者**：Yao Yao, Zixin Luo, Shiwei Li, Tianwei Shen, Tian Fang, Long Quan
+- **出处**：CVPR(2019)
+- **说明**：与MVSNet出自同手，二者共享代码仓库
+- **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Yao_Recurrent_MVSNet_for_High-Resolution_Multi-View_Stereo_Depth_Inference_CVPR_2019_paper.html) \| [code](https://github.com/YoYo000/MVSNet)
+
     <img src=".figure/paper-reading-list/R-MVSNet-overview.png" alt="MVSNet" width="50%;" />
     
     </details>
@@ -70,12 +70,12 @@ Multi-View Stereo
     
     <summary>详细信息</summary>
     
-    - **团队**：清华大学，香港科技大学
-    - **作者**：Rui Chen, Songfang Han, Jing Xu, Hao Su
-    - **出处**：ICCV(2019) oral
-    - **原文及代码**：[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Point-Based_Multi-View_Stereo_Network_ICCV_2019_paper.html) \| [code](https://github.com/callmeray/PointMVSNet)
-    
-    <img src=".figure/paper-reading-list/point-mvs-overview.png" alt="MVSNet" width="50%;" />
+- **团队**：清华大学，香港科技大学
+- **作者**：Rui Chen, Songfang Han, Jing Xu, Hao Su
+- **出处**：ICCV(2019) oral
+- **原文及代码**：[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Chen_Point-Based_Multi-View_Stereo_Network_ICCV_2019_paper.html) \| [code](https://github.com/callmeray/PointMVSNet)
+
+<img src=".figure/paper-reading-list/point-mvs-overview.png" alt="MVSNet" width="50%;" />
     
     </details>
 
@@ -85,12 +85,12 @@ Multi-View Stereo
     
     <summary>详细信息</summary>
     
-    - **团队**：阿里巴巴AI Lab
-    - **作者**：Xiaodong Gu, Zhiwen Fan, Siyu Zhu, Zuozhuo Dai, Feitong Tan, Ping Tan
-    - **出处**：CVPR(2020) oral
-    - **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Gu_Cascade_Cost_Volume_for_High-Resolution_Multi-View_Stereo_and_Stereo_Matching_CVPR_2020_paper.html) \| [code](https://github.com/alibaba/cascade-stereo)
-    
-    <img src=".figure/paper-reading-list/Cascade-Cost-Volume-overview.png" alt="MVSNet" width="50%;" />
+- **团队**：阿里巴巴AI Lab
+- **作者**：Xiaodong Gu, Zhiwen Fan, Siyu Zhu, Zuozhuo Dai, Feitong Tan, Ping Tan
+- **出处**：CVPR(2020) oral
+- **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Gu_Cascade_Cost_Volume_for_High-Resolution_Multi-View_Stereo_and_Stereo_Matching_CVPR_2020_paper.html) \| [code](https://github.com/alibaba/cascade-stereo)
+
+<img src=".figure/paper-reading-list/Cascade-Cost-Volume-overview.png" alt="MVSNet" width="50%;" />
     
     </details>
 
@@ -100,13 +100,13 @@ Multi-View Stereo
     
     <summary>详细信息</summary>
     
-    - **团队**：澳大利亚国立大学
-    - **作者**：Jiayu Yang, Wei Mao, Jose M. Alvarez, Miaomiao Liu
-    - **出处**：CVPR(2020) oral
-    - **说明**：
-    - **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_Cost_Volume_Pyramid_Based_Depth_Inference_for_Multi-View_Stereo_CVPR_2020_paper.html) \| [code](https://github.com/JiayuYANG/CVP-MVSNet)
-    
-    <img src=".figure/paper-reading-list/Cost-Volume-Pyramid-overview.png" alt="MVSNet" width="50%;" />
+- **团队**：澳大利亚国立大学
+- **作者**：Jiayu Yang, Wei Mao, Jose M. Alvarez, Miaomiao Liu
+- **出处**：CVPR(2020) oral
+- **说明**：
+- **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_Cost_Volume_Pyramid_Based_Depth_Inference_for_Multi-View_Stereo_CVPR_2020_paper.html) \| [code](https://github.com/JiayuYANG/CVP-MVSNet)
+
+<img src=".figure/paper-reading-list/Cost-Volume-Pyramid-overview.png" alt="MVSNet" width="50%;" />
     
     </details>
 
@@ -116,12 +116,12 @@ Multi-View Stereo
     
     <summary>详细信息</summary>
     
-    - **团队**：华中科技大学
-    - **作者**：Keyang Luo, Tao Guan, Lili Ju, Haipeng Huang, Yawei Luo
-    - **出处**：ICCV(2019)
-    - **原文及代码**：[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Luo_P-MVSNet_Learning_Patch-Wise_Matching_Confidence_Aggregation_for_Multi-View_Stereo_ICCV_2019_paper.html) \| code
-    
-    <img src=".figure/paper-reading-list/P-mvsnet-overview.png" alt="MVSNet" width="50%;" />
+- **团队**：华中科技大学
+- **作者**：Keyang Luo, Tao Guan, Lili Ju, Haipeng Huang, Yawei Luo
+- **出处**：ICCV(2019)
+- **原文及代码**：[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Luo_P-MVSNet_Learning_Patch-Wise_Matching_Confidence_Aggregation_for_Multi-View_Stereo_ICCV_2019_paper.html) \| code
+
+<img src=".figure/paper-reading-list/P-mvsnet-overview.png" alt="MVSNet" width="50%;" />
     
     </details>
 
@@ -131,12 +131,12 @@ Multi-View Stereo
     
     <summary>详细信息</summary>
     
-    - **团队**：华中科技大学
-    - **作者**：Keyang Luo, Tao Guan, Lili Ju, Yuesong Wang, Zhuo Chen, Yawei Luo
-    - **出处**：CVPR(2020)
-    - **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Luo_Attention-Aware_Multi-View_Stereo_CVPR_2020_paper.html) \| code
+- **团队**：华中科技大学
+- **作者**：Keyang Luo, Tao Guan, Lili Ju, Yuesong Wang, Zhuo Chen, Yawei Luo
+- **出处**：CVPR(2020)
+- **原文及代码**：[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Luo_Attention-Aware_Multi-View_Stereo_CVPR_2020_paper.html) \| code
     
-    <img src=".figure/paper-reading-list/Attention-Aware-overview.png" alt="MVSNet" width="50%;" />
+<img src=".figure/paper-reading-list/Attention-Aware-overview.png" alt="MVSNet" width="50%;" />
     
     </details>
 
