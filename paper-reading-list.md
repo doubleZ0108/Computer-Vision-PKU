@@ -61,7 +61,7 @@ Multi-View Stereo
 
 <img src=".figure/paper-reading-list/R-MVSNet-overview.png" alt="MVSNet" width="50%;" />
 
-<details>
+</details>
 
 <a id="point-mvs">[4]</a> Point-based multi-view stereo network
 
@@ -76,7 +76,7 @@ Multi-View Stereo
 
 <img src=".figure/paper-reading-list/point-mvs-overview.png" alt="MVSNet" width="50%;" />
 
-<details>
+</details>
 
 <a id="cascade-cost-volume">[5]</a> Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching
 
@@ -91,7 +91,7 @@ Multi-View Stereo
 
 <img src=".figure/paper-reading-list/Cascade-Cost-Volume-overview.png" alt="MVSNet" width="50%;" />
 
-<details>
+</details>
 
 <a id="cost-volume-pyramid">[6]</a> Cost Volume Pyramid Based Depth Inference for Multi-View Stereo
 
@@ -107,7 +107,7 @@ Multi-View Stereo
 
 <img src=".figure/paper-reading-list/Cost-Volume-Pyramid-overview.png" alt="MVSNet" width="50%;" />
 
-<details>
+</details>
 
 <a id="p-mvsnet">[7]</a> P-MVSNet: Learning Patch-wise Matching Confidence Aggregation for Multi-View Stereo
 
@@ -122,7 +122,7 @@ Multi-View Stereo
 
 <img src=".figure/paper-reading-list/P-mvsnet-overview.png" alt="MVSNet" width="50%;" />
 
-<details>
+</details>
 
 <a id="attention-aware">[8]</a> Attention-Aware Multi-View Stereo
 
@@ -137,7 +137,7 @@ Multi-View Stereo
 
 <img src=".figure/paper-reading-list/Attention-Aware-overview.png" alt="MVSNet" width="50%;" />
 
-<details>
+</details>
 
 
 
