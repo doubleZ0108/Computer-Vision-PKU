@@ -49,7 +49,8 @@ Multi-View Stereo
 
 <a id="r-mvsnet">[3]</a> Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference
 
- <details>
+<details>
+
    <summary>详细信息</summary>
 
 - **团队**：香港科技大学权龙教授团队
@@ -64,7 +65,8 @@ Multi-View Stereo
 
 <a id="point-mvs">[4]</a> Point-based multi-view stereo network
 
- <details>
+<details>
+
    <summary>详细信息</summary>
 
 - **团队**：清华大学，香港科技大学
@@ -75,9 +77,11 @@ Multi-View Stereo
 <img src=".figure/paper-reading-list/point-mvs-overview.png" alt="MVSNet" width="50%;" />
 
 <details>
+
 <a id="cascade-cost-volume">[5]</a> Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching
 
- <details>
+<details>
+
    <summary>详细信息</summary>
 
 - **团队**：阿里巴巴AI Lab
@@ -88,9 +92,11 @@ Multi-View Stereo
 <img src=".figure/paper-reading-list/Cascade-Cost-Volume-overview.png" alt="MVSNet" width="50%;" />
 
 <details>
+
 <a id="cost-volume-pyramid">[6]</a> Cost Volume Pyramid Based Depth Inference for Multi-View Stereo
 
- <details>
+<details>
+
    <summary>详细信息</summary>
 
 - **团队**：澳大利亚国立大学
@@ -102,9 +108,11 @@ Multi-View Stereo
 <img src=".figure/paper-reading-list/Cost-Volume-Pyramid-overview.png" alt="MVSNet" width="50%;" />
 
 <details>
+
 <a id="p-mvsnet">[7]</a> P-MVSNet: Learning Patch-wise Matching Confidence Aggregation for Multi-View Stereo
 
- <details>
+<details>
+
    <summary>详细信息</summary>
 
 - **团队**：华中科技大学
@@ -115,9 +123,11 @@ Multi-View Stereo
 <img src=".figure/paper-reading-list/P-mvsnet-overview.png" alt="MVSNet" width="50%;" />
 
 <details>
+
 <a id="attention-aware">[8]</a> Attention-Aware Multi-View Stereo
 
- <details>
+<details>
+
    <summary>详细信息</summary>
 
 - **团队**：华中科技大学
