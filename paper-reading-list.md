@@ -44,17 +44,17 @@ Multi-View Stereo
 
 <img src=".figure/paper-reading-list/PatchmatchNet-overview.png" alt="MVSNet" width="50%;" />
 
-
 ## 泛读论文
 
-<a id="r-mvsnet">[3]</a> Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference
+3. <a id="r-mvsnet">Recurrent MVSNet for High-resolution Multi-view Stereo Depth Inference</a>
+
+   CVPR(2019) [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Yao_Recurrent_MVSNet_for_High-Resolution_Multi-View_Stereo_Depth_Inference_CVPR_2019_paper.html) \| [code](https://github.com/YoYo000/MVSNet)
 
    <details>
 
    <summary>详细信息</summary>
 
    Yao Yao, Zixin Luo, Shiwei Li, Tianwei Shen, Tian Fang, Long Quan
-   CVPR(2019) [paper](https://openaccess.thecvf.com/content_CVPR_2019/html/Yao_Recurrent_MVSNet_for_High-Resolution_Multi-View_Stereo_Depth_Inference_CVPR_2019_paper.html) \| [code](https://github.com/YoYo000/MVSNet)
 
    <img src=".figure/paper-reading-list/R-MVSNet-overview.png" alt="MVSNet" width="50%;" />
 
