@@ -1,10 +1,17 @@
 # Anaconda安装及使用
 
+* [系统环境](#系统环境)
+* [Anaconda GUI](#anaconda-gui)
+   * [安装](#安装)
+   * [使用](#使用)
+* [Anaconda 命令行](#anaconda-命令行)
+   * [安装](#安装-1)
+   * [使用](#使用-1)
+* [Anaconda配置CV所需环境](#anaconda配置cv所需环境)
 
+------
 
-【Anaconda官网】
-
-[Anaconda | Individual Edition](https://www.anaconda.com/products/individual#Downloads)
+【Anaconda官网】[Anaconda | Individual Edition](https://www.anaconda.com/products/individual#Downloads)
 
 
 
@@ -21,9 +28,9 @@
 
 在官网下载安装包，根据提示一步步进行安装即可
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/22f62a76-d2b2-440e-a4d8-2b4b82314cc1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033750Z&X-Amz-Expires=86400&X-Amz-Signature=20a59ef6b536a5b28def7150915ed5e162bbc396939f5a947f64eabac930420e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width=" 33%;" />
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/22f62a76-d2b2-440e-a4d8-2b4b82314cc1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033750Z&X-Amz-Expires=86400&X-Amz-Signature=20a59ef6b536a5b28def7150915ed5e162bbc396939f5a947f64eabac930420e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/04546423-98e1-4f4e-918a-d3951f4e0ba7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033812Z&X-Amz-Expires=86400&X-Amz-Signature=f36d3c0e22ce5fb2e334658d7c48a82f2a10c49fdef974442f800b217ae6d1d0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width=" 33%;" />
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/04546423-98e1-4f4e-918a-d3951f4e0ba7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033812Z&X-Amz-Expires=86400&X-Amz-Signature=f36d3c0e22ce5fb2e334658d7c48a82f2a10c49fdef974442f800b217ae6d1d0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
 
 ### 使用
 
@@ -112,4 +119,7 @@ conda activate cv
 conda install opencv, numpy, matplotlib
 ```
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab7fc463-1c78-4b88-b137-a3ad8110354f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T034024Z&X-Amz-Expires=86400&X-Amz-Signature=e2dc7a184694e524051112b6c39165e68bf75b2607f56b6ad734280279b93b15&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="50%;" />
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab7fc463-1c78-4b88-b137-a3ad8110354f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210928T011306Z&X-Amz-Expires=86400&X-Amz-Signature=c719c1bb8a47b4f9c63cf005ba3ff4c9668736dfd33f59a18699c80ba0ca626a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="50%;" />
+
+
+

@@ -5,10 +5,10 @@
 ## 课程作业
 
 - [x] :triangular_flag_on_post:**第二周作业**(2021.09.28)
+    - [x] :alembic:[OpenCV人脸检测demo](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/experiment/Face-Detection-opencv/face-detection.ipynb)
     - [x] :pencil:[Anaconda安装及使用](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/anaconda-install.md)
     - [x] :notebook_with_decorative_cover:[Matplotlib学习](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/matplotlib-study.ipynb)
     - [x] :notebook_with_decorative_cover:[NumPy学习](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/numpy-study.ipynb)
-    - [x] :alembic:[OpenCV人脸检测demo](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/experiment/Face-Detection-opencv/face-detection.ipynb)
 - [x] **第一周作业**(2021.09.21)
     - [x] :page_with_curl:[计算机视觉课论文列表](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/paper-reading-list.md)（[腾讯文档版本](https://docs.qq.com/doc/DSGNEZVlES3R0REt0)）
 
