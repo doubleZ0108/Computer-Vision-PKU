@@ -28,31 +28,31 @@
 
 在官网下载安装包，根据提示一步步进行安装即可
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/22f62a76-d2b2-440e-a4d8-2b4b82314cc1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033750Z&X-Amz-Expires=86400&X-Amz-Signature=20a59ef6b536a5b28def7150915ed5e162bbc396939f5a947f64eabac930420e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/13fa07a0396d49aa870f7f51e78170e6~tplv-k3u1fbpfcp-zoom-1.image" alt="Untitled" width="33%;" />
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/04546423-98e1-4f4e-918a-d3951f4e0ba7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033812Z&X-Amz-Expires=86400&X-Amz-Signature=f36d3c0e22ce5fb2e334658d7c48a82f2a10c49fdef974442f800b217ae6d1d0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/53e59177c82e4728a9c77e1532047b26~tplv-k3u1fbpfcp-zoom-1.image" alt="Untitled" width="33%;" />
 
 ### 使用
 
 1. 创建虚拟环境
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9c9da921-e3fb-4fae-b770-c6b3615e077f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033837Z&X-Amz-Expires=86400&X-Amz-Signature=6fcbf15259ec39376d5fec1f440f9d1998a158a377c7b38a7d0b0cd5effba348&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
+<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/47ef0b3e9dec41e79d13d67209f207f7~tplv-k3u1fbpfcp-watermark.image?" alt="Untitled" width="33%;" />
 
 2. 选择所需包进行安装
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/40d21acf-044f-4a29-a3ce-0d5beddbcbeb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033847Z&X-Amz-Expires=86400&X-Amz-Signature=daa7e9a1d4f16b4c60c2436f5de77349a7446060c80a2894a76c1dc0b5ffbeb4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/47cc2df23b034b518ba028de230c2d93~tplv-k3u1fbpfcp-zoom-1.image" alt="Untitled" width="33%;" />
 
 3. 在IDE中使用虚拟环境进行测试
 
 > 需要安装`ipykernel`
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3cb8f0ff-5459-4919-9de8-0b7ff93764de/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033911Z&X-Amz-Expires=86400&X-Amz-Signature=b59a152991ee53030695fd2e13b99a8a85fdc10d0d3c810d901b290676a36f73&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/034130a688304017844f8b95b410a599~tplv-k3u1fbpfcp-zoom-1.image" alt="Untitled" width="33%;" />
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f25dfacf-76d7-4967-9f28-20a1cb8d64da/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033932Z&X-Amz-Expires=86400&X-Amz-Signature=5c34efee74ce09ca308816e4ecd9077d56a4ed8236731152983520ee7a64d227&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8663ddc7d78a4851915022e8fe188aba~tplv-k3u1fbpfcp-zoom-1.image" alt="Untitled" width="33%;" />
 
 4. 删除虚拟环境
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c85e2f91-6054-4001-a229-3cc10f83c99e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033943Z&X-Amz-Expires=86400&X-Amz-Signature=c076a686bdcaf07237c0e949071a315701113213c7043355a53900c5b274e1fb&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="33%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0f4963d810f04b348fe0c3439de6d4cb~tplv-k3u1fbpfcp-zoom-1.image" alt="Untitled" width="33%;" />
 
 ---
 
@@ -95,11 +95,11 @@ conda remove -n [env_name] --all
 
 下图为在Ubuntu下的实际操作：
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/177f14e0-54df-4a58-a8e5-03927bb1dd1b/2d139ec1110010c1ce68b1dc3f6a9b65.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T033956Z&X-Amz-Expires=86400&X-Amz-Signature=091d1eb448dbd7649480b2df0523be89c0fbae81d811a654662d5f51bb73a16e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222d139ec1110010c1ce68b1dc3f6a9b65.png%22" alt="2d139ec1110010c1ce68b1dc3f6a9b65.png" width=" 50%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1060ba6547144eb483c6ee05e65c479f~tplv-k3u1fbpfcp-zoom-1.image" alt="2d139ec1110010c1ce68b1dc3f6a9b65.png" width=" 50%;" />
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8117d330-51ef-4f70-a377-b98e9bcae801/273008e3d2bccaa9002b389578fd9661.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T034006Z&X-Amz-Expires=86400&X-Amz-Signature=2f056de0588c97b466f5de27690800e5932f574480d5eeb171fffb38d2777a38&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22273008e3d2bccaa9002b389578fd9661.png%22" alt="273008e3d2bccaa9002b389578fd9661.png" width="50%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3238b4b5bfdb43bd9a6dcc62eec0647d~tplv-k3u1fbpfcp-zoom-1.image" alt="273008e3d2bccaa9002b389578fd9661.png" width="50%;" />
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8e69c9da-3058-4f4d-aefb-57ec38e4e735/9666e3ea2098f32288bbfdfd2c3b8836.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210926T034015Z&X-Amz-Expires=86400&X-Amz-Signature=8bc144b0c0f55b08433e72a773dbcf5b35aa9e5313aa7fed4ed4f40cf9bcd0eb&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%229666e3ea2098f32288bbfdfd2c3b8836.png%22" alt="9666e3ea2098f32288bbfdfd2c3b8836.png" width="50%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e25d3e10aaf842cdb881050b2c7476f1~tplv-k3u1fbpfcp-zoom-1.image" alt="9666e3ea2098f32288bbfdfd2c3b8836.png" width="50%;" />
 
 ---
 
@@ -119,7 +119,7 @@ conda activate cv
 conda install opencv, numpy, matplotlib
 ```
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab7fc463-1c78-4b88-b137-a3ad8110354f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210928T011306Z&X-Amz-Expires=86400&X-Amz-Signature=c719c1bb8a47b4f9c63cf005ba3ff4c9668736dfd33f59a18699c80ba0ca626a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Untitled" width="50%;" />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5bbc4f09b3424a6daae657034e266906~tplv-k3u1fbpfcp-zoom-1.image" alt="Untitled" width="50%;" />
 
 
 
