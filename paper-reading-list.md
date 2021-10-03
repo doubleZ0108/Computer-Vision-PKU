@@ -32,7 +32,7 @@ Multi-View Stereo
    - **说明**：基于深度学习的MVS问题开山之作
    - **原文及代码**：[paper](https://openaccess.thecvf.com/content_ECCV_2018/html/Yao_Yao_MVSNet_Depth_Inference_ECCV_2018_paper.html) \| [code](https://github.com/YoYo000/MVSNet)
 
-<img src=".figure/paper-reading-list/MVSNet-overview.png" alt="MVSNet" width="50%;" />
+<img src="resources/paper-reading-list/MVSNet-overview.png" alt="MVSNet" width="50%;" />
 
 2. **<a id="patchmatchnet">PatchmatchNet: Learned Multi-View Patchmatch Stereo**</a>
     - **团队**：苏黎世联邦理工学院
@@ -40,7 +40,7 @@ Multi-View Stereo
     - **出处**：CVPR(2021) oral
     - **原文及代码**：[paper](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_PatchmatchNet_Learned_Multi-View_Patchmatch_Stereo_CVPR_2021_paper.html) \| [code](https://github.com/FangjinhuaWang/PatchmatchNet)
 
-<img src=".figure/paper-reading-list/PatchmatchNet-overview.png" alt="MVSNet" width="50%;" />
+<img src="resources/paper-reading-list/PatchmatchNet-overview.png" alt="MVSNet" width="50%;" />
 
 <br/>
 
@@ -58,7 +58,7 @@ Multi-View Stereo
 
    香港科技大学权龙教授团队(与MVSNet出自同手，二者共享代码仓库)
 
-   <img src=".figure/paper-reading-list/R-MVSNet-overview.png" alt="MVSNet" width="50%;" />
+   <img src="resources/paper-reading-list/R-MVSNet-overview.png" alt="MVSNet" width="50%;" />
 
    </details>
 
@@ -72,7 +72,7 @@ Multi-View Stereo
 
    Rui Chen, Songfang Han, Jing Xu, Hao Su(清华大学，香港科技大学)
 
-    <img src=".figure/paper-reading-list/point-mvs-overview.png" alt="MVSNet" width="50%;" />
+    <img src="resources/paper-reading-list/point-mvs-overview.png" alt="MVSNet" width="50%;" />
 
     </details>
 
@@ -86,7 +86,7 @@ Multi-View Stereo
 
     Xiaodong Gu, Zhiwen Fan, Siyu Zhu, Zuozhuo Dai, Feitong Tan, Ping Tan(阿里巴巴AI Lab) 
 
-    <img src=".figure/paper-reading-list/Cascade-Cost-Volume-overview.png" alt="MVSNet" width="50%;" />
+    <img src="resources/paper-reading-list/Cascade-Cost-Volume-overview.png" alt="MVSNet" width="50%;" />
 
     </details>
 
@@ -100,7 +100,7 @@ Multi-View Stereo
 
    Jiayu Yang, Wei Mao, Jose M. Alvarez, Miaomiao Liu(澳大利亚国立大学)
 
-    <img src=".figure/paper-reading-list/Cost-Volume-Pyramid-overview.png" alt="MVSNet" width="50%;" />
+    <img src="resources/paper-reading-list/Cost-Volume-Pyramid-overview.png" alt="MVSNet" width="50%;" />
 
     </details>
 
@@ -114,7 +114,7 @@ Multi-View Stereo
 
     Keyang Luo, Tao Guan, Lili Ju, Haipeng Huang, Yawei Luo(华中科技大学)
 
-    <img src=".figure/paper-reading-list/P-mvsnet-overview.png" alt="MVSNet" width="50%;" />
+    <img src="resources/paper-reading-list/P-mvsnet-overview.png" alt="MVSNet" width="50%;" />
 
     </details>
 
@@ -128,7 +128,7 @@ Multi-View Stereo
 
     Keyang Luo, Tao Guan, Lili Ju, Yuesong Wang, Zhuo Chen, Yawei Luo(华中科技大学)
 
-    <img src=".figure/paper-reading-list/Attention-Aware-overview.png" alt="MVSNet" width="50%;" />
+    <img src="resources/paper-reading-list/Attention-Aware-overview.png" alt="MVSNet" width="50%;" />
 
     </details>
 
