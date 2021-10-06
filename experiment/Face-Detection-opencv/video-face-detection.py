@@ -4,6 +4,8 @@ from matplotlib import pyplot as plt
 face_detector = cv2.CascadeClassifier('data/haarcascade_frontalface_default.xml')
 
 def face_detection(img):
+    global face_detector 
+    
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     blur = cv2.GaussianBlur(gray, (3,3), 0)
     # _, th = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
