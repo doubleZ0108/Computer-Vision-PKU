@@ -4,7 +4,7 @@
 
 ## 课程作业
 
-- [X] 🚩**第三周作业**(2021.10.12)
+- [x] 🚩**第三周作业**(2021.10.12) | [腾讯文档汇总版](https://docs.qq.com/doc/DSFNJSUZlTXNZRFFC)
   - [X] :pencil:[视频人脸检测](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/Face-Detection-opencv) ｜⚗️[code](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/experiment/Face-Detection-opencv/video-face-detection.py)
   - [X] PyTorch安装
   - [X] 运行所有ipynb文件

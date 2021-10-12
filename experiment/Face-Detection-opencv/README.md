@@ -52,7 +52,7 @@ if capture.isOpened():
 blur = cv2.GaussianBlur(gray, (3,3), 0)
 ```
 
-​	采用高斯滤波器后图像得到一定的平滑，噪声得到一定程度的消除，从结果是品种来看效果较好
+​	采用高斯滤波器后图像得到一定的平滑，噪声得到一定程度的消除，从结果来看效果较好
 
 ![gaussian](../../resources/face-detection/gaussian.png)
 
