@@ -1,7 +1,9 @@
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
+from moviepy.editor import VideoFileClip
 
+PLOT_FLAG = False
 
 def pre_process(img, blur_ksize=5, canny_low=50, canny_high=100):
     """
@@ -15,7 +17,10 @@ def pre_process(img, blur_ksize=5, canny_low=50, canny_high=100):
     gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
     blur = cv2.GaussianBlur(gray, (blur_ksize, blur_ksize), 1)
     edges = cv2.Canny(blur, canny_low, canny_high)
-    plt.imshow(edges, cmap='gray'), plt.title("pre process: edges"), plt.show()
+
+    if PLOT_FLAG:
+        plt.imshow(edges, cmap='gray'), plt.title("pre process: edges"), plt.show()
+
     return edges
 
 
@@ -30,10 +35,13 @@ def roi_extract(img, boundary):
 
     mask = np.zeros_like(img)
     cv2.fillPoly(mask, points, 255)
-    plt.imshow(mask, cmap='gray'), plt.title("roi mask"), plt.show()
+    if PLOT_FLAG:
+        plt.imshow(mask, cmap='gray'), plt.title("roi mask"), plt.show()
 
     roi = cv2.bitwise_and(img, mask)
-    plt.imshow(roi, cmap='gray'), plt.title("roi"), plt.show()
+    if PLOT_FLAG:
+        plt.imshow(roi, cmap='gray'), plt.title("roi"), plt.show()
+
     return roi
 
 
@@ -46,12 +54,13 @@ def hough_extract(img, rho=1, theta=np.pi/180, threshold=15, min_line_len=40, ma
     """
     lines = cv2.HoughLinesP(img, rho, theta, threshold, minLineLength=min_line_len, maxLineGap=max_line_gap)
 
-    drawing = np.zeros_like(img)
-    for line in lines:
-        for x1, y1, x2, y2 in line:
-            cv2.line(drawing, (x1,y1), (x2,y2), 255, 2)
-    plt.imshow(drawing, cmap='gray'), plt.title("hough lines"), plt.show()
-    print("Total of Hough lines: ", len(lines))
+    if PLOT_FLAG:
+        drawing = np.zeros_like(img)
+        for line in lines:
+            for x1, y1, x2, y2 in line:
+                cv2.line(drawing, (x1,y1), (x2,y2), 255, 2)
+        plt.imshow(drawing, cmap='gray'), plt.title("hough lines"), plt.show()
+        print("Total of Hough lines: ", len(lines))
 
     return lines
 
@@ -132,9 +141,16 @@ def lane_line_detection(img):
     vtxs = line_fit(lines, 325, img.shape[0])
 
     cv2.fillPoly(img, vtxs, (0, 255, 0))
-    plt.imshow(img[:, :, ::-1]), plt.title("final output"), plt.show()
+    if PLOT_FLAG:
+        plt.imshow(img[:, :, ::-1]), plt.title("final output"), plt.show()
+    return img
 
 
 if __name__ == '__main__':
-    img = cv2.imread('../../resources/opencv/lane2.jpg')
-    lane_line_detection(img)
+    # img = cv2.imread('../../resources/opencv/lane2.jpg')
+    # detected_img = lane_line_detection(img)
+
+    clip = VideoFileClip('../../resources/opencv/lane.mp4')
+    out_clip = clip.fl_image(lane_line_detection)
+    out_clip.write_videofile('lane-detected.mp4', audio=False)
+
