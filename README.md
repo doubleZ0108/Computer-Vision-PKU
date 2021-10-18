@@ -4,7 +4,9 @@
 
 ## 课程作业
 
-- [x] 🚩**第三周作业**(2021.10.12) | [腾讯文档汇总版](https://docs.qq.com/doc/DSFNJSUZlTXNZRFFC)
+- [x] 🚩**第四次作业**(2021.10.19) | [腾讯文档版](https://docs.qq.com/pdf/DSGhVTmNNeXNtTkZj)
+  - [x] :pencil:[矩阵求导问题](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/homework/gradient-calc/gradient-calc.ipynb)
+- [x] **第三周作业**(2021.10.12) | [腾讯文档汇总版](https://docs.qq.com/doc/DSFNJSUZlTXNZRFFC)
   - [X] :pencil:[视频人脸检测](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/Face-Detection-opencv) ｜⚗️[code](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/experiment/Face-Detection-opencv/video-face-detection.py)
   - [X] PyTorch安装
   - [X] 运行所有ipynb文件
