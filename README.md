@@ -4,7 +4,10 @@
 
 ## 课程作业
 
-- [x] 🚩**第四次作业**(2021.10.19) | [腾讯文档版](https://docs.qq.com/pdf/DSGhVTmNNeXNtTkZj)
+- [x] 🚩第五周作业(2021.10.26) | [腾讯文档版](https://docs.qq.com/pdf/DSEpHR0xSU1FRQWVT)
+  - [x] :alembic:[两层全连接网络拟合曲线](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/homework/DNN/W5_Homework.ipynb)
+  - [x] :pencil:[两层全连接网络逐步衍化](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/pytorch/DNN-generation.ipynb)
+- [x] **第四周作业**(2021.10.19) | [腾讯文档版](https://docs.qq.com/pdf/DSGhVTmNNeXNtTkZj)
   - [x] :pencil:[矩阵求导问题](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/homework/gradient-calc/gradient-calc.ipynb)
 - [x] **第三周作业**(2021.10.12) | [腾讯文档汇总版](https://docs.qq.com/doc/DSFNJSUZlTXNZRFFC)
   - [X] :pencil:[视频人脸检测](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/Face-Detection-opencv) ｜⚗️[code](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/experiment/Face-Detection-opencv/video-face-detection.py)
