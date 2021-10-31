@@ -3,3 +3,6 @@
 .vscode/
 doubleZ-*
 resources/opencv/lane.mp4
+t10k*
+train-labels-idx*
+train-images-idx*
