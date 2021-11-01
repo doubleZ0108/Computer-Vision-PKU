@@ -4,7 +4,10 @@
 
 ## 课程作业
 
-- [x] 🚩第五周作业(2021.10.26) | [腾讯文档版](https://docs.qq.com/pdf/DSEpHR0xSU1FRQWVT)
+- [x] 🚩**第六周作业(2021.22.03)** | [腾讯文档版](https://docs.qq.com/pdf/DSGN4eHBJTGF3cm9p)
+  - [x] :alembic:[CNN处理MNIST手写数字识别问题](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/homework/CNN-MNIST/W6_MNIST_FC.ipynb)
+  - [x] :pencil:[CNN处理MNIST手写数字识别问题](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/homework/CNN-MNIST)
+- [x] **第五周作业(2021.10.26)** | [腾讯文档版](https://docs.qq.com/pdf/DSEpHR0xSU1FRQWVT)
   - [x] :alembic:[两层全连接网络拟合曲线](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/homework/DNN/W5_Homework.ipynb)
   - [x] :pencil:[两层全连接网络逐步衍化](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/experiment/Regression/DNN-generation.ipynb)
 - [x] **第四周作业**(2021.10.19) | [腾讯文档版](https://docs.qq.com/pdf/DSGhVTmNNeXNtTkZj)
