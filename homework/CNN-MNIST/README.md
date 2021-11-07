@@ -137,10 +137,22 @@ self.linear = torch.nn.Sequential(
    >
    > ```python
    > with torch.no_grad():
-   >                 test_output = model(test_x.cuda())
+   >        test_output = model(test_x.cuda())
    > ```
 
 2. **激活函数对结果精度和内存消耗的影响**：实验中发现如果先通过激活函数，再进行Dropout、池化等操作当层数加深之后会占用大量内存导致显存爆炸，但在增加的层中不增加激活函数处理则不会有问题；同时增加激活函数可以一定程度上的提升精度
+
+> 【内存消耗统计】
+>
+> - test时torch.no_grad 
+>   - BN - ReLU - Dropout - MaxPool: 4895M
+>   - BN - ReLU(inplace=True) - Dropout - MaxPool: 4895M
+>   - BN - Dropout - ReLU - MaxPool: 4895M
+>   - BN - Dropout - MaxPool - ReLU: 4891M
+> - test时不取消梯度计算
+>   - BN - ReLU - Dropout - MaxPool: 大概7G显存爆炸
+>
+> 粗略的实验说明inplace并不能降低内存消耗，还是要记得test的时候把梯度计算取消
 
 ## 附录：实验中网络的实际代码
 
