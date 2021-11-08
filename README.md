@@ -4,7 +4,9 @@
 
 ## 课程作业
 
-- [x] 🚩**第六周作业(2021.22.03)** | [腾讯文档版](https://docs.qq.com/pdf/DSGN4eHBJTGF3cm9p)
+- [x] 🚩第七周作业(2021.11.10) | [腾讯文档版](https://docs.qq.com/pdf/DSENtVE55eXNlS2JY)
+  - [x] :pencil:[图像超分辨率](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/Image-Super-Resolution)
+- [x] **第六周作业(2021.11.03)** | [腾讯文档版](https://docs.qq.com/pdf/DSGN4eHBJTGF3cm9p)
   - [x] :alembic:[CNN处理MNIST手写数字识别问题](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/homework/CNN-MNIST/W6_MNIST_FC.ipynb)
   - [x] :pencil:[CNN处理MNIST手写数字识别问题](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/homework/CNN-MNIST)
 - [x] **第五周作业(2021.10.26)** | [腾讯文档版](https://docs.qq.com/pdf/DSEpHR0xSU1FRQWVT)
@@ -18,13 +20,13 @@
   - [x] OpenCV扩展
     - [x] :alembic:[传统方法车道线检测](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/opencv/lane-line-detection.py)
     - [x] :alembic:[Canny边缘检测动态展示](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/opencv/canny.py)
-- [X] **第二周作业**(2021.09.28)
+- [x] **第二周作业**(2021.09.28)
   - [X] ⚗️[OpenCV人脸检测demo](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/experiment/Face-Detection-opencv/face-detection.ipynb)
   - [X] 📝[Anaconda安装及使用](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/anaconda-install.md)
   - [X] 📔[Matplotlib学习](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/matplotlib-study.ipynb)
   - [x] 📔[NumPy学习](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/numpy-study.ipynb)
   - [x] 📔[OpenCV学习](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/docs/opencv/opencv-study.ipynb)
-- [X] **第一周作业**(2021.09.21)
+- [x] **第一周作业**(2021.09.21)
   - [X] 📃[计算机视觉课论文列表](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/paper-reading-list.md)（[腾讯文档版本](https://docs.qq.com/doc/DSGNEZVlES3R0REt0)）
 
 <br/>
