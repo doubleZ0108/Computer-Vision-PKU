@@ -51,7 +51,7 @@ class Generator(nn.Module):
             *block(128, 256),
             *block(256, 512),
             *block(512, 1024),
-            nn.Linear(1024, int(np.prod(img_shape))),
+            nn.Linear(1024, int(np.prod(img_shape))),   # 计算数组乘积
             nn.Tanh()
         )
 
@@ -82,6 +82,7 @@ class Discriminator(nn.Module):
 
 
 # Loss function
+# 二元Cross Entropy
 adversarial_loss = torch.nn.BCELoss()
 
 # Initialize generator and discriminator
@@ -141,6 +142,7 @@ for epoch in range(opt.n_epochs):
         gen_imgs = generator(z)
 
         # Loss measures generator's ability to fool the discriminator
+        # 论文中公式(1)G的部分，同时进行简化 logD(G(z))
         g_loss = adversarial_loss(discriminator(gen_imgs), valid)
 
         g_loss.backward()
