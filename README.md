@@ -4,7 +4,10 @@
 
 ## 课程作业
 
-- [x] 🚩第七周作业(2021.11.10) | [腾讯文档版](https://docs.qq.com/pdf/DSENtVE55eXNlS2JY)
+- [x] 🚩**第八周作业(2021.11.17)** | [腾讯文档版](https://docs.qq.com/pdf/DSExKV21SY3lLc2FT)
+  - [x] :pencil:[GAN论文阅读和实验](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/GAN)
+
+- [x] **第七周作业(2021.11.10)** | [腾讯文档版](https://docs.qq.com/pdf/DSENtVE55eXNlS2JY)
   - [x] :pencil:[图像超分辨率](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/Image-Super-Resolution)
 - [x] **第六周作业(2021.11.03)** | [腾讯文档版](https://docs.qq.com/pdf/DSGN4eHBJTGF3cm9p)
   - [x] :alembic:[CNN处理MNIST手写数字识别问题](https://github.com/doubleZ0108/Computer-Vision-PKU/blob/master/homework/CNN-MNIST/W6_MNIST_FC.ipynb)
