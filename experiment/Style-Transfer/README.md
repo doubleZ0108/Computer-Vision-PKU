@@ -12,6 +12,28 @@
 - 翻译其摘要和贡献；对代码主体部分进行注释，截图
 - 配置环境，测试自己的图片进行风格迁移的结果，截图
 
+## 实验结果
+
+​	在Linux环境中配置该项目，按照官方README中的inference说明进行配置，过程中没有遇到特殊的问题。
+
+​	在进行测试时由于内存限制，需要对图像尺寸进行一定程度的缩小，同时默认情况下图像要求为正方形（如果调整为ratio为小数，有可能在tensor维度中对不齐），因此首先先对图像进行了中心区域的提取和维度的同意，代码如下：
+
+```python
+def mycrop(img, target=1200):
+    img = Image.fromarray(np.uint8(img))
+    w, h = img.size
+    left, right = (w-target)//2, (w+target)//2
+    top, bottom = (h-target)//2, (h+target)//2
+    crop = img.crop((left, top, right, bottom))
+    return np.asarray(crop)
+```
+
+​	将会生成``index.html`文件，汇总所有的生成图片。最终的结果可以在[Style Transfer Demo网站](https://doublez0108.github.io/CV/Style-Transfer/style-transfer.html)上查看。
+
+<img src="https://upload-images.jianshu.io/upload_images/12014150-b8f664a505e81525.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
+
+
+
 ## 论文阅读
 
 AdaAttN: Revisit Attention Mechanism in Arbitrary Neural Style Transfer
@@ -34,17 +56,38 @@ AdaAttN: Revisit Attention Mechanism in Arbitrary Neural Style Transfer
 
 ## 代码阅读
 
+​	核心网络架构模块主要是位于`models`中的三个文件：
 
+- `base_model.py`： 定义addattn所需的基类
+- `networks.py`: 定义主要的网络模块，包括`AdaAttN`, `Transformer`, `Decoder`
+- `adaattn_model.py`: 根据以上两文件构建最终的AdaAttN网络模块
 
-## 实验结果
+​	其他文件结构作用大致分析如下：
 
-​	在Linux环境中配置该项目，按照官方README中的inference说明进行配置，过程中没有遇到特殊的问题。
+- `checkpoints/`: 保存AdaAttN训练模型，同时包含VGG的预训练网络模型
+- `data/`: 处理输入数据的部分，主要用以将数据打包成batch输入网络，以及进行数据的预处理
+- `datasets/`: 包含内容图片库和风格图片库，用于测试
+- `options/`: 处理输入模型的参数
+- `results/`: 存储测试后的结果，其中包含一个`.html`文件方便查看
+- `utils/`: 在数据处理，模型保存，生成html网页中所需的工具方法
 
-​	在进行测试时由于内存限制，需要对图像尺寸进行一定程度的缩小，同时默认情况下图像要求为正方形（如果调整为ratio为小数，有可能在tensor维度中对不齐），因此首先先对图像进行了中心区域的提取和维度的同意，代码如下：
+<center>test.py: 模型测试宏观步骤</center>
+
+<img src="https://upload-images.jianshu.io/upload_images/12014150-fc28ccef7a70a504.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
+
+<center>adaattn_model.py: loss计算</center>
 
 ```python
+# loss = a * L_content + b * L_style
+def compute_losses(self):
+    stylized_feats = self.encode_with_intermediate(self.cs)
+    self.compute_content_loss(stylized_feats)
+    self.compute_style_loss(stylized_feats)
+    self.loss_content = self.loss_content * self.opt.lambda_content
+    self.loss_local = self.loss_local * self.opt.lambda_local
+    self.loss_global = self.loss_global * self.opt.lambda_global
 ```
 
-​	将会生成``index.html`文件，汇总所有的生成图片。最终的结果可以在[Style Transfer Demo网站](https://doublez0108.github.io/CV/Style-Transfer/style-transfer.html)上查看。
+<center>networks.py: 论文核心创新点AdaAttN模块</center>
 
-<img src="https://upload-images.jianshu.io/upload_images/12014150-b8f664a505e81525.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
+<img src="https://upload-images.jianshu.io/upload_images/12014150-a5b46037dec68e55.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
