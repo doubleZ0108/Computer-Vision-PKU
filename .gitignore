@@ -7,3 +7,4 @@ t10k*
 train-labels-idx*
 train-images-idx*
 *.pt
+README.assets/

@@ -12,28 +12,6 @@
 - 翻译其摘要和贡献；对代码主体部分进行注释，截图
 - 配置环境，测试自己的图片进行风格迁移的结果，截图
 
-## 实验结果
-
-​	在Linux环境中配置该项目，按照官方README中的inference说明进行配置，过程中没有遇到特殊的问题。
-
-​	在进行测试时由于内存限制，需要对图像尺寸进行一定程度的缩小，同时默认情况下图像要求为正方形（如果调整为ratio为小数，有可能在tensor维度中对不齐），因此首先先对图像进行了中心区域的提取和维度的同意，代码如下：
-
-```python
-def mycrop(img, target=1200):
-    img = Image.fromarray(np.uint8(img))
-    w, h = img.size
-    left, right = (w-target)//2, (w+target)//2
-    top, bottom = (h-target)//2, (h+target)//2
-    crop = img.crop((left, top, right, bottom))
-    return np.asarray(crop)
-```
-
-​	将会生成``index.html`文件，汇总所有的生成图片。最终的结果可以在[Style Transfer Demo网站](https://doublez0108.github.io/CV/Style-Transfer/style-transfer.html)上查看。
-
-<img src="https://upload-images.jianshu.io/upload_images/12014150-b8f664a505e81525.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
-
-
-
 ## 论文阅读
 
 AdaAttN: Revisit Attention Mechanism in Arbitrary Neural Style Transfer
@@ -53,6 +31,26 @@ AdaAttN: Revisit Attention Mechanism in Arbitrary Neural Style Transfer
 ### 网络架构
 
 <img src="https://upload-images.jianshu.io/upload_images/12014150-b8757c81bbc85961.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
+
+## 实验结果
+
+​	在Linux环境中配置该项目，按照官方README中的inference说明进行配置，过程中没有遇到特殊的问题。
+
+​	在进行测试时由于内存限制，需要对图像尺寸进行一定程度的缩小，同时默认情况下图像要求为正方形（如果调整为ratio为小数，有可能在tensor维度中对不齐），因此首先先对图像进行了中心区域的提取和维度的同意，代码如下：
+
+```python
+def mycrop(img, target=1200):
+    img = Image.fromarray(np.uint8(img))
+    w, h = img.size
+    left, right = (w-target)//2, (w+target)//2
+    top, bottom = (h-target)//2, (h+target)//2
+    crop = img.crop((left, top, right, bottom))
+    return np.asarray(crop)
+```
+
+​	将会生成``index.html`文件，汇总所有的生成图片。最终的结果可以在[Style Transfer Demo网站](https://doublez0108.github.io/CV/Style-Transfer/style-transfer.html)上查看。
+
+<img src="https://upload-images.jianshu.io/upload_images/12014150-b8f664a505e81525.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
 
 ## 代码阅读
 
