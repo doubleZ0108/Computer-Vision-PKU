@@ -50,7 +50,7 @@
 | ✅第七次作业<br />(2021.11.10) | 图像超分           | :pencil:[图像超分辨率](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/Image-Super-Resolution) | [第七次作业汇总](https://docs.qq.com/pdf/DSENtVE55eXNlS2JY)  |
 | ✅第八次作业<br />(2021.11.17) | GAN生成对抗网络    | :pencil:[GAN论文阅读和实验](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/GAN) | [第八次作业汇总](https://docs.qq.com/pdf/DSExKV21SY3lLc2FT)  |
 | ✅第九次作业<br />(2021.11.24) | 风格迁移           | :alembic:[风格迁移实验](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/Style-Transfer)<br />🌐[风格迁移Demo网站](https://doublez0108.github.io/CV/Style-Transfer/style-transfer.html) | [第九次作业汇总](https://docs.qq.com/pdf/DSHFhVlV2ZGdJYUpi)  |
-| 🚩第十次作业<br />(2021.12.01) | YOLO目标检测       | :pencil:[YOLO目标检测实验](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/YOLO) | [第十次作业汇总](https://docs.qq.com/pdf/DSFhzaUpNTW5jVU5J)  |
+| ✅第十次作业<br />(2021.12.01) | YOLO目标检测       | :pencil:[YOLO目标检测实验](https://github.com/doubleZ0108/Computer-Vision-PKU/tree/master/experiment/YOLO) | [第十次作业汇总](https://docs.qq.com/pdf/DSFhzaUpNTW5jVU5J)  |
 
 <br/>
 
